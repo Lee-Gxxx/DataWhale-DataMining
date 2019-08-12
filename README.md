@@ -31,15 +31,15 @@ DataWhale DataMining Pratice 8
 
 .|正类|负类
 -|-|-
-正类|True Positives(**TP** 正类判定为正类）|false positives(**FP** 负类判定为正类）
-负类|False Negatives(**FN** 正类判定为负类）|true negatives(**TN** 负类判定为负类）
+正类|True Positives(**TP**   正类判定为正类）|false positives(**FP**   负类判定为正类）
+负类|False Negatives(**FN**   正类判定为负类）|true negatives(**TN**   负类判定为负类）
 
-accuracy = (TP + TN) / (P+N) = (TP + TN) / (TP + FN + FP + TN)     
-precision = TP / (TP + FP)
-recall = TP / (TP + FN)  
-F1-score = (2 * P * R) / (P + R)  
-auc =  处于ROC curve下方的那部分面积的大小,[0.5,1]之间。越大表示有越好的表现  
-ROC关注：    
-   True Positive Rate ( TPR )  = TP / (TP + FN)     TPR代表能将正例分对的概率  
-   False Positive Rate( FPR ) = FP / (FP + TN)      FPR代表将负例错分为正例的概率  
+**accuracy** = (TP + TN) / (P+N) = (TP + TN) / (TP + FN + FP + TN)     
+**precision** = TP / (TP + FP)
+**recall** = TP / (TP + FN)  
+**F1-score** = (2 * P * R) / (P + R)  
+**auc** =  处于ROC curve下方的那部分面积的大小,[0.5,1]之间。越大表示有越好的表现  
+**ROC关注：**    
+   True Positive Rate (**TPR**)  = TP / (TP + FN)     TPR代表能将正例分对的概率  
+   False Positive Rate(**FPR**) = FP / (FP + TN)      FPR代表将负例错分为正例的概率  
 
