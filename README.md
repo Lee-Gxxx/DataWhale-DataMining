@@ -31,8 +31,8 @@ DataWhale DataMining Pratice 8
 
 .|正类|负类
 -|-|-
-正类|True Positives(**TP**   正类判定为正类）|false positives(**FP**   负类判定为正类）
-负类|False Negatives(**FN**   正类判定为负类）|true negatives(**TN**   负类判定为负类）
+**正类**|True Positives(**TP**   正类判定为正类）|false positives(**FP**   负类判定为正类）
+**负类**|False Negatives(**FN**   正类判定为负类）|true negatives(**TN**   负类判定为负类）
 
 **accuracy** = (TP + TN) / (P+N) = (TP + TN) / (TP + FN + FP + TN)     
 **precision** = TP / (TP + FP)
