@@ -43,3 +43,5 @@ DataWhale DataMining Pratice 8
    True Positive Rate (**TPR**)  = TP / (TP + FN)     TPR代表能将正例分对的概率  
    False Positive Rate(**FPR**) = FP / (FP + TN)      FPR代表将负例错分为正例的概率  
 
+#### 任务5 - 模型调优—时间: 2天  
+任务5：使用网格搜索法对5个模型进行调优（调参时采用五折交叉验证的方式），并进行模型评估，记得展示代码的运行结果。 
